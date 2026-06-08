@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELEMENTS — Luxury Open-Air Lounge & Cocktail Bar Dar es Salaam</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Syne:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #050505;
+        }
+        .font-syne {
+            font-family: 'Syne', sans-serif;
+        }
+        .glass-panel {
+            background: rgba(18, 18, 18, 0.6);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .glass-card-premium {
+            background: linear-gradient(135deg, rgba(223, 177, 91, 0.07) 0%, rgba(5, 5, 5, 0.3) 100%);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(223, 177, 91, 0.15);
+        }
+        .ambient-glow {
+            filter: blur(130px);
+            pointer-events: none;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.4s ease forwards;
+        }
+    </style>
+</head>
+<body class="text-neutral-300 antialiased selection:bg-amber-400 selection:text-black overflow-x-hidden">
+
+    <div class="absolute top-0 left-1/4 w-[600px] h-[600px] bg-amber-500/[0.04] rounded-full ambient-glow -translate-y-1/2"></div>
+    <div class="absolute top-[120vh] right-0 w-[500px] h-[500px] bg-purple-600/[0.03] rounded-full ambient-glow"></div>
+    <div class="absolute top-[260vh] left-0 w-[700px] h-[700px] bg-amber-500/[0.03] rounded-full ambient-glow -translate-x-1/3"></div>
+
+    <header class="fixed top-0 left-0 right-0 z-50 border-b border-white/[0.04] bg-[#050505]/70 backdrop-blur-xl">
+        <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+            <a href="#" class="font-syne text-2xl font-bold tracking-tighter text-white">
+                E L E M E N T S<span class="text-amber-400">.</span>
+            </a>
+            <nav class="hidden md:flex items-center space-x-10 text-xs tracking-[0.2em] uppercase font-semibold text-neutral-400">
+                <a href="#vibe" class="hover:text-white transition-colors">The Vibe</a>
+                <a href="#menu" class="hover:text-white transition-colors">Curated Menu</a>
+                <a href="#reserve" class="hover:text-white transition-colors">Reservations</a>
+                <a href="https://www.instagram.com/elementstz/" target="_blank" class="hover:text-amber-400 transition-colors flex items-center gap-1">Instagram ↗</a>
+            </nav>
+            <div>
+                <a href="#reserve" class="inline-flex items-center justify-center px-6 py-3 bg-white text-black font-syne font-semibold text-xs tracking-widest uppercase rounded-full hover:bg-amber-400 transition-all duration-300 shadow-xl shadow-white/5">
+                    Reserve Space
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative min-h-screen flex items-center justify-center pt-24 px-6">
+        <div class="max-w-5xl mx-auto text-center relative z-10">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/[0.02] backdrop-blur-md mb-8">
+                <span class="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+                <span class="text-[10px] uppercase tracking-[0.25em] font-semibold text-neutral-400">Masaki, Dar es Salaam</span>
+            </div>
+            
+            <h1 class="font-syne text-5xl md:text-8xl font-bold text-white tracking-tight leading-[0.95] mb-8">
+                OPEN AIR.<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-amber-600">UNMATCHED ENERGY.</span>
+            </h1>
+            
+            <p class="max-w-2xl mx-auto text-neutral-400 font-light text-base md:text-xl leading-relaxed mb-12">
+                Dar's premium canopy cocktail lounge. Indulge in sunset mixology from <span class="text-white font-medium">6:00 PM</span>, then watch the environment morph into a high-energy movement from <span class="text-amber-400 font-medium">10:00 PM to 4:00 AM</span>.
+            </p>
+
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-5">
+                <a href="#reserve" class="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-amber-400 to-amber-500 text-black font-syne font-bold text-xs tracking-widest uppercase rounded-full hover:opacity-90 transition-all shadow-lg shadow-amber-500/20">
+                    Book Bottle Service
+                </a>
+                <a href="#menu" class="w-full sm:w-auto px-8 py-4 border border-white/10 bg-white/[0.02] text-white font-syne font-bold text-xs tracking-widest uppercase rounded-full hover:bg-white hover:text-black transition-all">
+                    View Interactive Menu
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-6 mb-32">
+        <div class="glass-panel rounded-3xl p-8 grid grid-cols-2 lg:grid-cols-4 gap-8 text-center lg:text-left">
+            <div class="space-y-1">
+                <p class="text-[10px] uppercase tracking-widest text-neutral-500 font-bold">Find Us</p>
+                <a href="https://maps.google.com/?q=67MG+F3R,Dar+es+Salaam" target="_blank" class="text-sm font-medium text-white hover:text-amber-400 transition-colors">67MG+F3R, Haile Selassie Rd ↗</a>
+            </div>
+            <div class="space-y-1">
+                <p class="text-[10px] uppercase tracking-widest text-neutral-500 font-bold">Operations</p>
+                <p class="text-sm font-medium text-emerald-400 flex items-center justify-center lg:justify-start gap-2">
+                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span> Open Nightly 'til 04:00 AM
+                </p>
+            </div>
+            <div class="space-y-1">
+                <p class="text-[10px] uppercase tracking-widest text-neutral-500 font-bold">Direct Line</p>
+                <a href="tel:0713504104" class="text-sm font-medium text-white hover:text-amber-400 transition-colors">0713 504 104</a>
+            </div>
+            <div class="space-y-1">
+                <p class="text-[10px] uppercase tracking-widest text-neutral-500 font-bold">Digital Platform</p>
+                <a href="https://placelisted.com" target="_blank" class="text-sm font-medium text-amber-400 hover:underline">placelisted.com</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="vibe" class="max-w-6xl mx-auto px-6 py-12 mb-32">
+        <div class="grid lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-5 space-y-6">
+                <span class="text-xs uppercase tracking-[0.3em] text-amber-500 font-bold block">The Open-Air Architecture</span>
+                <h2 class="font-syne text-4xl md:text-5xl font-bold text-white tracking-tight leading-tight">
+                    Where the ocean breeze meets deep basslines.
+                </h2>
+                <p class="text-neutral-400 font-light leading-relaxed text-sm md:text-base">
+                    Designed structurally around wide-berth canopy systems, Elements guarantees massive fresh airflow to keep the room breezy, cool, and premium, completely independent of how packed the dance floor gets deep into the night. 
+                </p>
+                <div class="pt-4 border-t border-white/5 space-y-2">
+                    <p class="text-xs text-neutral-500 italic">"Great place with good party groove. Lots of fresh air blowing through. Also the place is classy" — Ruud E., Local Guide</p>
+                </div>
+            </div>
+            <div class="lg:col-span-7 grid grid-cols-12 gap-4">
+                <div class="col-span-8 h-64 glass-panel rounded-2xl p-6 flex flex-col justify-end relative overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent z-0"></div>
+                    <div class="relative z-10">
+                        <span class="text-[10px] uppercase tracking-widest bg-amber-400/10 text-amber-400 px-2 py-1 rounded border border-amber-400/20">Acoustics</span>
+                        <h3 class="text-white font-syne font-bold text-lg mt-3">Elite DJ Lineups</h3>
+                        <p class="text-xs text-neutral-400 mt-1">Saturdays and Wednesdays features curated sets from Dar's premier open-format open-air mix masters.</p>
+                    </div>
+                </div>
+                <div class="col-span-4 h-64 glass-card-premium rounded-2xl p-6 flex flex-col justify-between">
+                    <span class="text-2xl text-amber-400 font-syne font-bold">$$</span>
+                    <p class="text-xs text-neutral-400 font-light">Affordable Luxury Cocktail Pricing Metrics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="bg-neutral-950/40 border-y border-white/[0.02] py-32 mb-32">
+        <div class="max-w-6xl mx-auto px-6">
+            
+            <div class="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-16 gap-8">
+                <div>
+                    <span class="text-xs uppercase tracking-[0.3em] text-amber-500 font-bold block mb-2">The Liquid Menu</span>
+                    <h2 class="font-syne text-4xl font-bold text-white tracking-tight">Curated Offerings</h2>
+                </div>
+                
+                <div class="w-full lg:w-auto flex flex-col sm:flex-row gap-6 items-start sm:items-center justify-end">
+                    <div class="flex flex-wrap gap-2 text-xs font-semibold uppercase tracking-wider text-neutral-400" id="filter-container">
+                        <button onclick="filterMenu('all')" id="btn-all" class="px-4 py-2 rounded-full bg-white text-black transition-all">All (<span id="count-all">0</span>)</button>
+                        <button onclick="filterMenu('Cocktails')" id="btn-Cocktails" class="px-4 py-2 rounded-full border border-white/10 hover:border-white/30 transition-all">Cocktails</button>
+                        <button onclick="filterMenu('Wine')" id="btn-Wine" class="px-4 py-2 rounded-full border border-white/10 hover:border-white/30 transition-all">Wine</button>
+                        <button onclick="filterMenu('Bottle Service')" id="btn-Bottle" class="px-4 py-2 rounded-full border border-white/10 hover:border-white/30 transition-all">Bottle Service</button>
+                    </div>
+                    
+                    <div class="flex items-center gap-2">
+                        <label id="sort-label" for="sort-select" class="text-[10px] uppercase tracking-widest text-neutral-500 font-bold">Sort By</label>
+                        <select id="sort-select" onchange="sortMenu()" class="bg-neutral-900 border border-white/10 text-xs text-white rounded-xl px-3 py-2 font-medium focus:outline-none focus:border-amber-400 cursor-pointer">
+                            <option value="default">Default</option>
+                            <option value="low-high">Price: Low to High</option>
+                            <option value="high-low">Price: High to Low</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6" id="menu-grid">
+                </div>
+        </div>
+    </section>
+
+    <section id="reserve" class="max-w-5xl mx-auto px-6 mb-32">
+        <div class="text-center max-w-xl mx-auto mb-16 space-y-3">
+            <span class="text-xs uppercase tracking-[0.3em] text-amber-500 font-bold block">Guest Alignment Framework</span>
+            <h2 class="font-syne text-4xl font-bold text-white tracking-tight">Select Your Environment</h2>
+            <p class="text-xs text-neutral-500 leading-relaxed">Explicit, highly defined lounge allocations guaranteeing exact service relative to individual arrival timelines.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 items-stretch">
+            <div class="glass-panel p-8 rounded-3xl flex flex-col justify-between hover:border-white/10 transition-all duration-300">
+                <div class="space-y-6">
+                    <div class="space-y-2">
+                        <span class="text-[9px] uppercase tracking-widest text-neutral-500 font-bold block">Tier 01</span>
+                        <h3 class="text-white font-syne text-xl font-bold">Main Open-Air Patio</h3>
+                    </div>
+                    <p class="text-xs text-neutral-400 font-light leading-relaxed">
+                        Best matched for group socialization, early evening transitions, casual drinking, and walk-ins. Entry access operates strictly on open availability. Pacing is relaxed before 10 PM.
+                    </p>
+                    <ul class="space-y-3 text-xs text-neutral-400 font-light">
+                        <li class="flex items-center gap-2"><span class="text-amber-400 text-sm">✓</span> Open walk-in structure permitted</li>
+                        <li class="flex items-center gap-2"><span class="text-amber-400 text-sm">✓</span> Direct fluid access to centralized cocktail bars</li>
+                        <li class="flex items-center gap-2"><span class="text-amber-400 text-sm">✓</span> Direct paths to deep coastal canopy crosswinds</li>
+                    </ul>
+                </div>
+                <a href="tel:0713504104" class="w-full text-center mt-8 py-4 border border-white/10 bg-white/[0.01] hover:bg-white hover:text-black transition text-white font-syne font-bold text-xs tracking-widest uppercase rounded-full block">
+                    Call For Walk-In Info
+                </a>
+            </div>
+
+            <div class="glass-card-premium p-8 rounded-3xl flex flex-col justify-between relative overflow-hidden shadow-2xl shadow-amber-500/[0.02]">
+                <div class="space-y-6">
+                    <div class="flex justify-between items-start">
+                        <div class="space-y-2">
+                            <span class="text-[9px] uppercase tracking-widest text-amber-400 font-bold block">Tier 02</span>
+                            <h3 class="text-white font-syne text-xl font-bold">The VIP Main Lounge</h3>
+                        </div>
+                        <span class="text-[9px] bg-amber-400 text-black px-2.5 py-1 rounded-full font-bold uppercase tracking-wider">Dedicated Service</span>
+                    </div>
+                    <p class="text-xs text-neutral-300 font-light leading-relaxed">
+                        Elevated premium tables placed directly into primary DJ system focus metrics. Highly recommended for arrivals after 11:00 PM when dance areas reach absolute peak capacity.
+                    </p>
+                    <ul class="space-y-3 text-xs text-neutral-300 font-light">
+                        <li class="flex items-center gap-2"><span class="text-amber-400 text-sm">✦</span> Dedicated personal platform table attendants</li>
+                        <li class="flex items-center gap-2"><span class="text-amber-400 text-sm">✦</span> Accelerated express queue skip metrics</li>
+                        <li class="flex items-center gap-2"><span class="text-amber-400 text-sm">✦</span> Premium frontline spacing to late night elite performance</li>
+                    </ul>
+                </div>
+                <a href="https://wa.me/255713504104" target="_blank" class="w-full text-center mt-8 py-4 bg-gradient-to-r from-amber-400 to-amber-500 hover:opacity-90 transition text-black font-syne font-bold text-xs tracking-widest uppercase rounded-full shadow-lg shadow-amber-500/20 block">
+                    Book VIP Bottle Package via WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t border-white/[0.04] bg-[#050505] py-16 text-xs text-neutral-500">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
+            <div class="space-y-2">
+                <p class="font-syne text-lg font-bold text-white tracking-tighter">ELEMENTS.</p>
+                <p class="font-light">67MG+F3R, Haile Selassie Road, Masaki, Dar es Salaam, Tanzania</p>
+            </div>
+            <div class="text-neutral-600 font-light text-center md:text-right space-y-1">
+                <p>© 2026 Elements Lounge. Developed under high-fidelity layout styling presentation frameworks.</p>
+                <p>Data sync mapping aligns exactly with public data points from @elementstz.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Exact structured details from your dataset mapped precisely
+        const menuData = [
+            { name: "Prosecco", type: "Wine", notes: "Sparkling, light, floral", price: 13.00 },
+            { name: "Chardonnay", type: "Wine", notes: "Crisp, oaky finish, Napa", price: 15.00 },
+            { name: "Paper Plane", type: "Cocktails", notes: "Bourbon, amaro, aperol, lemon", price: 16.00 },
+            { name: "Cabernet", type: "Wine", notes: "Full body, dark berries", price: 16.00 },
+            { name: "Negroni", type: "Cocktails", notes: "Gin, vermouth, campari", price: 17.00 },
+            { name: "Old Fashioned", type: "Cocktails", notes: "Bourbon, bitters, orange peel", price: 18.00 },
+            { name: "Espresso Martini", type: "Cocktails", notes: "Vodka, espresso, liqueur", price: 19.00 },
+            { name: "Veuve Clicquot", type: "Bottle Service", notes: "Yellow label champagne", price: 180.00 },
+            { name: "Grey Goose", type: "Bottle Service", notes: "Premium vodka, 750ml", price: 350.00 },
+            { name: "Macallan 12", type: "Bottle Service", notes: "Single malt scotch, 750ml", price: 450.00 }
+        ];
+
+        let currentFilter = 'all';
+
+        function renderMenu(items) {
+            const grid = document.getElementById('menu-grid');
+            grid.innerHTML = '';
+
+            if(items.length === 0) {
+                grid.innerHTML = `<p class="col-span-2 text-center text-neutral-500 py-12 text-sm font-light">No items found matching the selected parameters.</p>`;
+                return;
+            }
+
+            items.forEach(item => {
+                const card = document.createElement('div');
+                card.className = "glass-panel p-6 rounded-2xl flex justify-between items-center hover:bg-white/[0.02] transition duration-300 animate-fade-in";
+                
+                const formattedPrice = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(item.price);
+                
+                card.innerHTML = `
+                    <div class="space-y-1 pr-4">
+                        <div class="flex items-center gap-2 flex-wrap">
+                            <h3 class="text-white font-semibold text-base">${item.name}</h3>
+                            <span class="w-1 h-1 rounded-full bg-neutral-700"></span>
+                            <span class="text-[9px] bg-white/5 text-neutral-400 px-2 py-0.5 rounded font-mono uppercase tracking-wider">${item.type}</span>
+                        </div>
+                        <p class="text-xs text-neutral-400 font-light">${item.notes}</p>
+                    </div>
+                    <span class="font-syne font-bold text-amber-400 text-lg whitespace-nowrap">${formattedPrice}</span>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function filterMenu(category) {
+            currentFilter = category;
+            
+            const buttons = document.querySelectorAll('#filter-container button');
+            buttons.forEach(btn => {
+                btn.className = "px-4 py-2 rounded-full border border-white/10 hover:border-white/30 transition-all";
+            });
+
+            const activeIdMap = { 
+                'all': 'btn-all', 
+                'Cocktails': 'btn-Cocktails', 
+                'Wine': 'btn-Wine', 
+                'Bottle Service': 'btn-Bottle' 
+            };
+            
+            if (activeIdMap[category]) {
+                document.getElementById(activeIdMap[category]).className = "px-4 py-2 rounded-full bg-white text-black transition-all";
+            }
+
+            processMenuState();
+        }
+
+        function processMenuState() {
+            let filteredItems = menuData;
+            if (currentFilter !== 'all') {
+                filteredItems = menuData.filter(item => item.type === currentFilter);
+            }
+
+            const sortBy = document.getElementById('sort-select').value;
+            if (sortBy === 'low-high') {
+                filteredItems.sort((a, b) => a.price - b.price);
+            } else if (sortBy === 'high-low') {
+                filteredItems.sort((a, b) => b.price - a.price);
+            }
+
+            renderMenu(filteredItems);
+        }
+
+        function sortMenu() {
+            processMenuState();
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            document.getElementById('count-all').innerText = menuData.length;
+            renderMenu(menuData);
+        });
+    </script>
+</body>
+</html>
